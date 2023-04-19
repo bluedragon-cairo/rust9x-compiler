@@ -1,0 +1,276 @@
+cargo:rerun-if-changed=build.rs
+cargo:compiler-rt=C:\Users\MCE-2005\.cargo\registry\src\github.com-1285ae84e5963aae\compiler_builtins-0.1.70\compiler-rt
+cargo:rustc-cfg=feature="unstable"
+cargo:rustc-cfg=feature="mem-unaligned"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\absvdi2.c
+cargo:rustc-cfg=__absvdi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\absvsi2.c
+cargo:rustc-cfg=__absvsi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\absvti2.c
+cargo:rustc-cfg=__absvti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\addvdi3.c
+cargo:rustc-cfg=__addvdi3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\addvsi3.c
+cargo:rustc-cfg=__addvsi3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\addvti3.c
+cargo:rustc-cfg=__addvti3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\clzdi2.c
+cargo:rustc-cfg=__clzdi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\clzsi2.c
+cargo:rustc-cfg=__clzsi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\clzti2.c
+cargo:rustc-cfg=__clzti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\cmpdi2.c
+cargo:rustc-cfg=__cmpdi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\cmpti2.c
+cargo:rustc-cfg=__cmpti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\ctzdi2.c
+cargo:rustc-cfg=__ctzdi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\ctzsi2.c
+cargo:rustc-cfg=__ctzsi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\ctzti2.c
+cargo:rustc-cfg=__ctzti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\divdc3.c
+cargo:rustc-cfg=__divdc3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\divsc3.c
+cargo:rustc-cfg=__divsc3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\divxc3.c
+cargo:rustc-cfg=__divxc3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\extendhfsf2.c
+cargo:rustc-cfg=__extendhfsf2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\ffsti2.c
+cargo:rustc-cfg=__ffsti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\int_util.c
+cargo:rustc-cfg=__int_util="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\muldc3.c
+cargo:rustc-cfg=__muldc3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\mulsc3.c
+cargo:rustc-cfg=__mulsc3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\mulvdi3.c
+cargo:rustc-cfg=__mulvdi3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\mulvsi3.c
+cargo:rustc-cfg=__mulvsi3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\mulvti3.c
+cargo:rustc-cfg=__mulvti3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\mulxc3.c
+cargo:rustc-cfg=__mulxc3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\negdf2.c
+cargo:rustc-cfg=__negdf2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\negdi2.c
+cargo:rustc-cfg=__negdi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\negsf2.c
+cargo:rustc-cfg=__negsf2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\negti2.c
+cargo:rustc-cfg=__negti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\negvdi2.c
+cargo:rustc-cfg=__negvdi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\negvsi2.c
+cargo:rustc-cfg=__negvsi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\negvti2.c
+cargo:rustc-cfg=__negvti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\paritydi2.c
+cargo:rustc-cfg=__paritydi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\paritysi2.c
+cargo:rustc-cfg=__paritysi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\parityti2.c
+cargo:rustc-cfg=__parityti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\popcountdi2.c
+cargo:rustc-cfg=__popcountdi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\popcountsi2.c
+cargo:rustc-cfg=__popcountsi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\popcountti2.c
+cargo:rustc-cfg=__popcountti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\powixf2.c
+cargo:rustc-cfg=__powixf2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\subvdi3.c
+cargo:rustc-cfg=__subvdi3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\subvsi3.c
+cargo:rustc-cfg=__subvsi3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\subvti3.c
+cargo:rustc-cfg=__subvti3="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\truncdfhf2.c
+cargo:rustc-cfg=__truncdfhf2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\truncsfhf2.c
+cargo:rustc-cfg=__truncsfhf2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\ucmpdi2.c
+cargo:rustc-cfg=__ucmpdi2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\ucmpti2.c
+cargo:rustc-cfg=__ucmpti2="optimized-c"
+cargo:rerun-if-changed=D:\rust9x\src/llvm-project/compiler-rt\lib/builtins\apple_versioning.c
+cargo:rustc-cfg=apple_versioning="optimized-c"
+TARGET = Some("i686-pc-windows-msvc")
+OPT_LEVEL = Some("3")
+HOST = Some("i686-pc-windows-msvc")
+CC_i686-pc-windows-msvc = None
+CC_i686_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_i686-pc-windows-msvc = None
+CFLAGS_i686_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("crt-static,fxsr,llvm14-builtins-abi,sse,sse2")
+DEBUG = Some("false")
+CC_i686-pc-windows-msvc = None
+CC_i686_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_i686-pc-windows-msvc = None
+CFLAGS_i686_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("crt-static,fxsr,llvm14-builtins-abi,sse,sse2")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\absvdi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\absvdi2.c"
+absvdi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\absvsi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\absvsi2.c"
+absvsi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\absvti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\absvti2.c"
+absvti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\addvdi3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\addvdi3.c"
+addvdi3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\addvsi3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\addvsi3.c"
+addvsi3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\addvti3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\addvti3.c"
+addvti3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\clzdi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\clzdi2.c"
+clzdi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\clzsi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\clzsi2.c"
+clzsi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\clzti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\clzti2.c"
+clzti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\cmpdi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\cmpdi2.c"
+cmpdi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\cmpti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\cmpti2.c"
+cmpti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ctzdi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\ctzdi2.c"
+ctzdi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ctzsi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\ctzsi2.c"
+ctzsi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ctzti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\ctzti2.c"
+ctzti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\divdc3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\divdc3.c"
+divdc3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\divsc3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\divsc3.c"
+divsc3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\divxc3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\divxc3.c"
+divxc3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\extendhfsf2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\extendhfsf2.c"
+extendhfsf2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ffsti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\ffsti2.c"
+ffsti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\int_util.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\int_util.c"
+int_util.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\muldc3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\muldc3.c"
+muldc3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulsc3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\mulsc3.c"
+mulsc3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulvdi3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\mulvdi3.c"
+mulvdi3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulvsi3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\mulvsi3.c"
+mulvsi3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulvti3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\mulvti3.c"
+mulvti3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulxc3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\mulxc3.c"
+mulxc3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negdf2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\negdf2.c"
+negdf2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negdi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\negdi2.c"
+negdi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negsf2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\negsf2.c"
+negsf2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\negti2.c"
+negti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negvdi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\negvdi2.c"
+negvdi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negvsi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\negvsi2.c"
+negvsi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negvti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\negvti2.c"
+negvti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\paritydi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\paritydi2.c"
+paritydi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\paritysi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\paritysi2.c"
+paritysi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\parityti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\parityti2.c"
+parityti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\popcountdi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\popcountdi2.c"
+popcountdi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\popcountsi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\popcountsi2.c"
+popcountsi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\popcountti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\popcountti2.c"
+popcountti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\powixf2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\powixf2.c"
+powixf2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\subvdi3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\subvdi3.c"
+subvdi3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\subvsi3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\subvsi3.c"
+subvsi3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\subvti3.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\subvti3.c"
+subvti3.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\truncdfhf2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\truncdfhf2.c"
+truncdfhf2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\truncsfhf2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\truncsfhf2.c"
+truncsfhf2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ucmpdi2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\ucmpdi2.c"
+ucmpdi2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ucmpti2.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\ucmpti2.c"
+ucmpti2.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MT" "-O2" "-Brepro" "/Zl" "-D__func__=__FUNCTION__" "-FoD:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\apple_versioning.o" "-c" "D:\\rust9x\\src/llvm-project/compiler-rt\\lib/builtins\\apple_versioning.c"
+apple_versioning.c
+exit code: 0
+AR_i686-pc-windows-msvc = None
+AR_i686_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\lib.exe" "-out:D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\libcompiler-rt.a" "-nologo" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\absvdi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\absvsi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\absvti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\addvdi3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\addvsi3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\addvti3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\clzdi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\clzsi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\clzti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\cmpdi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\cmpti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ctzdi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ctzsi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ctzti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\divdc3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\divsc3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\divxc3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\extendhfsf2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ffsti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\int_util.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\muldc3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulsc3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulvdi3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulvsi3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulvti3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\mulxc3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negdf2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negdi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negsf2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negvdi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negvsi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\negvti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\paritydi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\paritysi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\parityti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\popcountdi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\popcountsi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\popcountti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\powixf2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\subvdi3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\subvsi3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\subvti3.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\truncdfhf2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\truncsfhf2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ucmpdi2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\ucmpti2.o" "D:\\rust9x\\build\\i686-pc-windows-msvc\\stage1-std\\i686-pc-windows-msvc\\release\\build\\compiler_builtins-dda3fe354ce73079\\out\\apple_versioning.o"
+exit code: 0
+cargo:rustc-link-lib=static=compiler-rt
+cargo:rustc-link-search=native=D:\rust9x\build\i686-pc-windows-msvc\stage1-std\i686-pc-windows-msvc\release\build\compiler_builtins-dda3fe354ce73079\out
